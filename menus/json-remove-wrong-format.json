@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle json-remove-wrong-format",
+        "command": "json-remove-wrong-format:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "json-remove-wrong-format",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "json-remove-wrong-format:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
